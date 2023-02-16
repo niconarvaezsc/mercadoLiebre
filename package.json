@@ -8,15 +8,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/valecoulo/Mercado-Liebre.git"
+    "url": "git+https://github.com/niconarvaezsc/Mercado-Liebre.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/valecoulo/Mercado-Liebre/issues"
+    "url": "https://github.com/niconarvaezsc/Mercado-Liebre/issues"
   },
-  "homepage": "https://github.com/valecoulo/Mercado-Liebre#readme",
+  "homepage": "https://github.com/niconarvaezsc/Mercado-Liebre#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.20"
   }
 }
