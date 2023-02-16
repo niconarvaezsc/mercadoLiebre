@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Registro</title>
+</head>
+<body class="body-regis">  
+    
+    <h1 class="tittle-regis">Registrarse</h1>
+
+    <div class="contenedor-regis">
+
+        <!-- <H1 class="tittle">REGISTRARSE</H1> -->
+
+    <form class="form-regis" action="/registro" method="POST">
+        
+        <div class="first-3-data">
+        
+        <input type="text" placeholder="Nombre y apellido" class="box-1">
+        <input type="text" placeholder="Nombre de usuario" class="box-2">
+
+        </div>
+
+        <h4 class="h4-regis">Fecha de nacimiento</h4>
+        
+        <input type="date" class="date-box">
+        
+        <input type="text" placeholder="Domicilio" class="adress-box">
+        
+
+        <h4 class="h4-regis">Perfil del usuario</h4>
+
+        <input type="radio" name="perfil" value="comprador">
+        <label for="" class="margin-radio">Comprador</label>
+
+        <input type="radio" name="perfil" value="vendedor">
+        <label for="" class="margin-radio">Vendedor</label>
+
+        <h4 class="h4-regis">Intereses</h4>
+
+        <div class="intereses">
+        
+        <div class="electro">
+        <input type="checkbox" name="intereses" id="electro">
+        <label for="">Electro</label>
+        </div>
+
+        <div class="moda">
+        <input type="checkbox" name="intereses" id="Moda">
+        <label for="">Moda</label>
+        </div>
+
+        <div class="hogar">
+        <input type="checkbox" name="intereses" id="hogar">
+        <label for="">Hogar</label>
+        </div>
+
+        <div class="jugueteria">
+        <input type="checkbox" name="intereses" id="juegueteria">
+        <label for="">Juegueteria</label>
+        </div>
+
+        <div class="vida-sana">
+        <input type="checkbox" name="intereses" id="vida sana">
+        <label for="">Vida sana</label>
+        </div>
+
+        </div>
+
+        <h4 class="h4-regis">Datos</h4>
+
+        <p class="p-regis">Foto de usuario</p>
+        <input type="file" name="avatar" accept=".jpg" multiple class="file">
+
+        <input type="password" placeholder="Contraseña" class="password-regis">
+        <input type="password" placeholder="Confirmar contraseña" class="password-confir-regis">
+
+        <div class="buttons">
+            <a class="back-butt" href="/">Regresar</a>
+            <button type="reset" class="reset-butt">Borrar</button>
+        </div>
+        
+    </form>
+
+</div>
+
+</body>
+</html>
